@@ -26,16 +26,19 @@ export default async function PaginaDinamica({ params }: { params: Promise<{ slu
               title="Nueva aula ATECA" 
               content="El centro estrena un aula de tecnología aplicada."
               imagen="/images/noticia1.png"
+              noticiaId="nueva-aula-ateca"
             />
             <Card 
               title="Prevención del acoso" 
               content="Taller contra el bullying y ciberacoso."
               imagen="/images/noticia2.jpg"
+              noticiaId="prevencion-acoso"
             />
             <Card 
               title="Feliz Navidad" 
               content="Felices fiestas y próspero año nuevo."
               imagen="/images/noticia3.jpg"
+              noticiaId="feliz-navidad"
             />
           </div>
         </div>
@@ -58,18 +61,28 @@ export default async function PaginaDinamica({ params }: { params: Promise<{ slu
               content="Comenzamos el nuevo curso con ilusión y nuevos proyectos educativos."
               date="15 Enero 2026"
               imagen="/images/noticia1.png"
+              noticiaId="inicio-curso-2026"
             />
             <Card 
               title="Actividades extraescolares" 
               content="Inscripciones abiertas para actividades del trimestre."
               date="10 Enero 2026"
               imagen="/images/noticia2.jpg"
+              noticiaId="actividades-extraescolares"
             />
             <Card 
               title="Feliz Navidad" 
               content="El IES Cura Valera les desea felices fiestas."
               date="24 Diciembre 2025"
               imagen="/images/noticia3.jpg"
+              noticiaId="feliz-navidad"
+            />
+            <Card 
+              title="Noticia eliminada" 
+              content="Esta noticia ya no está disponible en el sistema."
+              date="01 Enero 2025"
+              imagen="/images/404.png"
+              noticiaId="noticia-inexistente"
             />
           </div>
         </div>
